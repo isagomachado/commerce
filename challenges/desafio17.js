@@ -7,5 +7,5 @@ db.resumoProdutos.insert(
 );
 db.resumoProdutos.find(
   {},
-  { _id: 0 }
+  { _id: 0 },
 );
