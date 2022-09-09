@@ -5,8 +5,8 @@ db.produtos.updateMany(
       $in: [
         "Quarteirão com Queijo", 
         "Big Mac",
-      ] 
-    } 
+      ],
+    },
   },
   { $push: { ingredientes: "bacon" } },
 );
