@@ -1,2 +1,2 @@
-use("commerce");
-db.produtos.find({});
+// use("commerce");
+db.produtos.countDocuments({});
